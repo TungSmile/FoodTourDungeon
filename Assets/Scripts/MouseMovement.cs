@@ -24,6 +24,6 @@ public class MouseMovement : MonoBehaviour
         xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, 90f, 90f);
 
-        yRotation += mouseY;
+        yRotation += mouseX;
     }
 }
