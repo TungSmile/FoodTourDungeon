@@ -16,6 +16,7 @@ public class TerrianControll : MonoBehaviour
 
     }
 
+    // read data
 
     Terrain getDataByIndex(int col, int row)
     {
